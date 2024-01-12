@@ -1,7 +1,7 @@
 var cards = [
 	[
-    "Zia føler ikke, at hun har noget til fælles med sine holdkammerater, fordi mange af dem er ældre end hende og har børn.",
-    "<i>Hvad kan Zia gøre for at få et bedre forhold til sine holdkammerater?</i>",
+    "Cindy er 18 år gammel. Hun er ordblind og diagnosticeret med ADHD.<br><br>Hun er dygtig, når hun samler sig, om det hun skal, men hun er ofte ukoncentreret. Hun er meget aktiv og social på skolehjemmet om aftenen (og om natten), og hun er derfor ofte træt og uoplagt om dagen.",
+    "<i>Tror I Julie har en diagnose? Hvis ja, hvilken?<br><br>Hvad ville I gøre, hvis I var Julies mentor?<br><br>Er der noget, man kan gøre for at hjælpe klassekammeraterne?</i>",
     1,
     "SKOLE"
 ],
