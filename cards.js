@@ -19,7 +19,7 @@ var cards = [
 ],
 [
 "Emil er 17 år og har flere diagnoser, er selvmordstruet og har et stofmisbrug. <br><br>Hans mentor mener ikke, at det er forsvarligt at have ham boende på skolehjemmet, da hun er bange for, at han kan finde på at gøre skade på sig selv. Hun ved samtidigt ikke, hvor hun skal søge hjælp, og hvordan hun hjælper Emil bedst.",
-"<i>Hvem kontakter man, hvis en elev vil gøre skade på sig selv eller andre?<br><br>Er der behov for en fælles retningslinje i mentorteamet om dette? Hvordan støtter man bedst mentees som Emil?<br><br>Emil er 17 år og har flere diagnoser, er selvmordstruet og har et stofmisbrug. <i>",
+"<i>Hvem kontakter man, hvis en elev vil gøre skade på sig selv eller andre?<br><br>Er der behov for en fælles retningslinje i mentorteamet om dette?<br><br>Hvordan støtter man bedst mentees som Emil?<br><br>Emil er 17 år og har flere diagnoser, er selvmordstruet og har et stofmisbrug. <i>",
 4,
 "category"
 ],
@@ -108,7 +108,7 @@ var cards = [
 "category"
 ],
 [
-"Helga er en 19 årig kvinde, som bor på skolehjemmet, da hendes familie bor på Island. Helga har netop fået tilbudt SPS, da hun får hyppige angstanfald og ikke trives særligt godt. Hendes mentor føler sig magtesløs og har svært ved at finde ud af, hvordan hun kan hjælpe, da Helga ofte aflyser støttetimerne med kort varsel.",
+"Helga er en 19 årig kvinde, som bor på skolehjemmet, da hendes familie bor på Island. Helga har netop fået tilbudt SPS, da hun får hyppige angstanfald og ikke trives særligt godt. <br><br>Hendes mentor føler sig magtesløs og har svært ved at finde ud af, hvordan hun kan hjælpe, da Helga ofte aflyser støttetimerne med kort varsel.",
 "<i>Hvordan kan man motivere elever som Helga til at tage imod støtten?<br><br>Hvad er 2-3 gode råd til mentorer i arbejdet med angst?<br><br>Er der nogen, mentor bør kontakte i denne situation fx kolleger, forældre?<i>",
 19,
 "category"
@@ -126,7 +126,7 @@ var cards = [
 "category"
 ],
 [
-"Storm på 19 år betragter sig som nonbinær og ønsker, at alle siger “de/dem” som pronomen i stedet for “han/ham” . Nogle af Storms klassekammerater siger alligevel “han” om Storm, hvilket gør Storm meget frustrereret og ked af det.",
+"Storm på 19 år betragter sig som nonbinær og ønsker, at alle siger “de/dem” som pronomen i stedet for “han/ham” . <br><br>Nogle af Storms klassekammerater siger alligevel “han” om Storm, hvilket gør Storm meget frustrereret og ked af det.",
 "<i>Hvad er jeres erfaringer med elever, der identificerer sig som nonbinære?<br><br>Hvad er 2-3 råd til at få elever som Storm til at trives socialt i klassen?<br><br>Hvordan kan mentor og underviser samarbejde om elever som Storm?<i>",
 22,
 "category"
@@ -180,7 +180,7 @@ var cards = [
 "category"
 ],
 [
-"Lukas er 24 år, har autisme og er ordblind. Han bryder sig ikke om at være på sin læreplads og melder sig ofte syg.Lukas har kontaktet sin mentor og fortalt ham dette, men hans mentor er i tvivl om, hvordan han skal håndtere det.",
+"Lukas er 24 år, har autisme og er ordblind. Han bryder sig ikke om at være på sin læreplads og melder sig ofte syg.<br><br>Lukas har kontaktet sin mentor og fortalt ham dette, men hans mentor er i tvivl om, hvordan han skal håndtere det.",
 "<i>Har I før haft elever, som ikke trives på deres læreplads?<br><br>Hvordan håndterer man som mentor bedst, når mentees ikke trives der?<br><br>Skal mentor inddrage lærepladsen i indsigterne? Hvis ja, hvordan?<i>",
 31,
 "category"
@@ -192,7 +192,7 @@ var cards = [
 "category"
 ],
 [
-"Alice på 25 år er psykisk sårbar og skal til at starte på hovedforløbet. Alice udtrykker stor bekymring for det, fordi hun frygter at skulle ud på en læreplads.Alices mentor er lidt usikker på, hvordan hun skal håndtere Alices frygt for at komme ud på en læreplads.",
+"Alice på 25 år er psykisk sårbar og skal til at starte på hovedforløbet. Alice udtrykker stor bekymring for det, fordi hun frygter at skulle ud på en læreplads.<br><br>Alices mentor er lidt usikker på, hvordan hun skal håndtere Alices frygt for at komme ud på en læreplads.",
 "<i>Hvad er den nuværende praksis, når elever skal starte på en læreplads?<br><br>Hvordan kan man som mentor støtte elever som frygter lærepladsen?<br><br>Hvordan kan mentor samarbejde med en læreplads om elever som Alice?<i>",
 33,
 "category"
