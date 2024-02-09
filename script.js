@@ -3,7 +3,16 @@ var currentCardContext = "";
 var currentCardQuestion = "";
 var randomcard = "";
 var randomcolor = "";
-var pathToCardsCsv = 'cards.csv';
+
+
+function getQueryStringValue(key) {
+    const queryParams = new URLSearchParams(window.location.search);
+    return queryParams.get(key);
+}
+
+const cardDeckName = getQueryStringValue('card_deck'); // Get 'card_deck' parameter value
+
+var pathToCardsCsv = `${cardDeckName}.csv`; // Construct the path with the validated or defaulted value
 let parsedCards = []; // This will hold the CSV data once loaded
 
 async function loadAndParseCards(path) {
@@ -28,7 +37,6 @@ async function loadAndParseCards(path) {
   }
   
   loadAndParseCards(pathToCardsCsv).then(() => {
-    console.log(parsedCards); // Ensure it's using parsedCards
 
     var availableCards = [];
     for (var i = 0; i < parsedCards.length; i++) {
