@@ -27,7 +27,7 @@ async function loadAndParseCards(path) {
 	}
   }
   
-  loadAndParseCards(path_to_cards_csv).then(() => {
+  loadAndParseCards(pathToCardsCsv).then(() => {
     console.log(parsedCards); // Ensure it's using parsedCards
 
     var availableCards = [];
