@@ -1,2 +1,2 @@
 context,questions,nr,type
-"Card deck not selected.","Select a card deck through the url paramter card_deck, for example 'raido-org.github.io/cards/?card_deck=YOUR_CARD_DECK' (replace YOUR_CARD_DECK with your card deck name)",1,default
+"Card deck not selected.","Select a card deck through the url paramter card_deck, for example: <br><br>raido-org.github.io/cards/?card_deck=YOUR_CARD_DECK<br><br>(replace YOUR_CARD_DECK with your card deck name)",1,default
