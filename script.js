@@ -12,6 +12,10 @@ function getQueryStringValue(key) {
 
 const cardDeckName = getQueryStringValue('card_deck'); // Get 'card_deck' parameter value
 
+if (!cardDeckName) {
+    cardDeckName = 'default';
+}
+
 var pathToCardsCsv = `${cardDeckName}.csv`; // Construct the path with the validated or defaulted value
 let parsedCards = []; // This will hold the CSV data once loaded
 
