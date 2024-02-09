@@ -10,7 +10,7 @@ function getQueryStringValue(key) {
     return queryParams.get(key);
 }
 
-const cardDeckName = getQueryStringValue('card_deck'); // Get 'card_deck' parameter value
+let cardDeckName = getQueryStringValue('card_deck'); // Get 'card_deck' parameter value
 
 if (!cardDeckName) {
     cardDeckName = 'default';
