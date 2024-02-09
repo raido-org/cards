@@ -3,6 +3,24 @@ var currentCardContext = "";
 var currentCardQuestion = "";
 var randomcard = "";
 var randomcolor = "";
+var path_to_cards_csv = 'cards.csv';
+
+function loadAndParseCards() {
+	fetch(path_to_cards_csv)
+	  .then(response => response.text())
+	  .then(csvText => {
+		Papa.parse(csvText, {
+		  complete: function(results) {
+			console.log(results.data); // Log parsed data to console
+			useCardData(results.data); // Use the parsed data in your app
+		  },
+		  header: true
+		});
+	  })
+	  .catch(error => console.error('Error loading or parsing cards.csv:', error));
+  }
+
+cards = loadAndParseCards()
 
 var availableCards = [];
 for (var i = 0; i < cards.length; i++) {
