@@ -6,7 +6,7 @@ var randomcolor = "";
 var path_to_cards_csv = 'cards.csv';
 let cards = []; // This will hold the CSV data once loaded
 
-async function loadAndParseCards(path_to_cards_csv) {
+async function loadAndParseCards(path) {
 	try {
 	  const response = await fetch(path_to_cards_csv);
 	  const csvText = await response.text();
@@ -27,7 +27,7 @@ async function loadAndParseCards(path_to_cards_csv) {
 	}
   }
   
-  loadAndParseCards('path_to_your_cards_csv').then(() => {
+  loadAndParseCards(path_to_cards_csv).then(() => {
 	console.log(cards); // Now safe to use `cards`
 	// Further logic that depends on `cards` can go here
   });
