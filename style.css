@@ -52,7 +52,7 @@ p {
 
 .cardbox {
     background: #FBFAF5;
-    max-width: 400px;
+    max-width: 1000px;
     min-height: 100px;
     margin: 10px;
     text-align: center;
@@ -84,6 +84,12 @@ p {
     color: #FBFAF5;
 }
 
+.btn:focus, .btn:active:focus, #newcard:focus {
+    outline: none;
+    box-shadow: none; /* Also remove Bootstrap's default focus shadow if desired */
+}
+
+
 @media only screen and (max-width: 768px) {
     #cardtext {
         font-size: 20px;
@@ -97,5 +103,9 @@ p {
 @media only screen and (max-width: 320px) {
     #cardtext {
         font-size: 13px;
+    }
+
+    .container {
+        margin-right: 15px;
     }
 }
