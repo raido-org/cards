@@ -35,6 +35,7 @@ blockquote:before {
     color: #ccc;
     line-height: 0.1em;
     margin-right: 0.25em;
+    margin-left: 0.25em;
     vertical-align: -0.4em;
 }
 
@@ -46,7 +47,7 @@ p {
 }
 
 .container {
-    max-height: 800px;
+    max-height: 1000px;
     margin: 5% auto 5% auto;
 }
 
@@ -54,7 +55,7 @@ p {
     background: #FBFAF5;
     max-width: 1000px;
     min-height: 100px;
-    margin: 10px;
+    margin: 20px auto;
     text-align: center;
     border: 10px solid transparent;
     border-radius: 15px;
@@ -86,7 +87,7 @@ p {
 
 .btn:focus, .btn:active:focus, #newcard:focus {
     outline: none;
-    box-shadow: none; /* Also remove Bootstrap's default focus shadow if desired */
+    box-shadow: none;
 }
 
 
@@ -94,18 +95,10 @@ p {
     #cardtext {
         font-size: 20px;
     }
-    
-    .container {
-        margin-right: 15px;
-    }
 }
 
 @media only screen and (max-width: 320px) {
     #cardtext {
-        font-size: 13px;
-    }
-
-    .container {
-        margin-right: 15px;
+        font-size: 9px;
     }
 }
