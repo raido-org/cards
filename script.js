@@ -123,3 +123,7 @@ async function loadAndParseCards(path) {
     });
 
 });
+
+document.getElementById('newcard').addEventListener('click', function() {
+    window.scrollTo(0, 0);
+});
