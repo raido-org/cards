@@ -46,6 +46,7 @@ p {
     display: inline;
 }
 
+
 .container {
     max-height: 400px;
     margin: 5% auto 5% auto;
@@ -61,6 +62,16 @@ p {
     border-radius: 15px;
     transition: border-color;
 }
+
+
+.cardbox, #newcard, blockquote footer {
+    transition: background-color 0.5s ease, border-color 0.5s ease, color 0.5s ease;
+}
+
+/* document.getElementById('newcard').style.backgroundColor = colors[randomcolor];
+document.querySelector('.cardbox').style.borderColor = colors[randomcolor];
+document.querySelectorAll('blockquote footer').forEach((element) => {
+    element.style.color = colors[randomcolor]; */
 
 .cardbutton {
     display: inline-block;
@@ -93,12 +104,12 @@ p {
 
 @media only screen and (max-width: 768px) {
     #cardtext {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
 @media only screen and (max-width: 320px) {
     #cardtext {
-        font-size: 9px;
+        font-size: 8px;
     }
 }

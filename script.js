@@ -19,6 +19,17 @@ if (!cardDeckName) {
 var pathToCardsCsv = `${cardDeckName}.csv`; // Construct the path with the validated or defaulted value
 let parsedCards = []; // This will hold the CSV data once loaded
 
+function animateColors() {
+    $.when(
+        $("#newcard").animate({ backgroundColor: colors[randomcolor] }, 500).promise(),
+        $(".cardbox").animate({ borderColor: colors[randomcolor] }, 500).promise(),
+        $("blockquote footer").animate({ color: colors[randomcolor] }, 500).promise()
+    ).done(function() {
+        // put stuff to be executed after all animations are complete here.
+    });
+}
+
+
 async function loadAndParseCards(path) {
 	try {
 	  const response = await fetch(path);
@@ -90,18 +101,20 @@ async function loadAndParseCards(path) {
         currentCardContext = parsedCards[randomcard].context;
         currentCardQuestion = parsedCards[randomcard].questions;
 
-        $(document).ready(function () {
-            $("#newcard").animate({ backgroundColor: colors[randomcolor] }, 500);
-            $(".cardbox").animate({ borderColor: colors[randomcolor] }, 500);
-            $("blockquote footer").animate({ color: colors[randomcolor] }, 500);
-            $("#cardtext").animate({ opacity: 0 }, 500, function () {
-                $(this).animate({ opacity: 1 }, 500);
-                $(this).html(
-                    currentCardContext + "<br><h1><b>···</b></h1><br>" + currentCardQuestion
-                );
-            });
+        document.getElementById('newcard').style.backgroundColor = colors[randomcolor];
+        document.querySelector('.cardbox').style.borderColor = colors[randomcolor];
+        document.querySelectorAll('blockquote footer').forEach((element) => {
+            element.style.color = colors[randomcolor];
         });
-    }
+
+        // Handle the opacity and content change for #cardtext
+        var cardtext = document.getElementById('cardtext');
+        cardtext.style.opacity = 0;
+        setTimeout(() => {
+            cardtext.innerHTML = currentCardContext + "<br><h1><b>···</b></h1><br>" + currentCardQuestion;
+            cardtext.style.opacity = 1;
+        }, 500); // Match the timeout to the transition duration
+}
 
     getCard();
 
